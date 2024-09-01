@@ -1,0 +1,7 @@
+personal-portfolio/
+├── images/             # Images used in the website
+├── style.css           # Custom styles for the website
+├── script.js           # JavaScript file for interactive features
+├── index.html          # Main HTML file (home page)
+├── README.md           # Project documentation (this file)
+└── SudiptaDuttaResumeCV.pdf  # My resume (downloadable from the site)
