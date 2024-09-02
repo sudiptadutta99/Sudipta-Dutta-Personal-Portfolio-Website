@@ -21,14 +21,16 @@ Welcome to my personal portfolio website! This project is a reflection of my jou
 - **Bootstrap**: Responsive grid system and components.
 - **Font Awesome**: Icons used throughout the website.
 
+
+## 🎨 Screenshots
+Here is a preview of the SPersonal Portfoliio Website:
+![Personal Portfolio Screenshot](images\Screenshot.png)
+
 ## Contributing
 If you’d like to contribute to this project, feel free to fork the repository and create a pull request with your changes. I welcome any feedback or suggestions!
 
-## Contact
-If you have any questions or want to get in touch, feel free to reach out to me via:
-
 ## 📝 License
-This project is not licensed. You are free to interpret and modify according to your use.
+The MIT License (MIT). You are free to interpret and modify according to your use.
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check and reach out on the links below.
