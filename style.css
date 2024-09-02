@@ -11,6 +11,9 @@ body {
     background-image: url(images/background.jpg);
     background-color: #080808;
     color: #fafafa;
+    background-size: cover; /* Adjusts the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
 }
 
 #header {
@@ -68,7 +71,7 @@ body {
     display: none; /* Hide icons initially */
 }
 
-/* --------------about------------------ */
+/* ------------------------------------about------------------------------------------------- */
 #about {
     padding: 80px;
     color: #ababab;
@@ -87,6 +90,10 @@ body {
 }
 .about-col-2 {
     flex-basis: 60%;
+    color: #fff;
+}
+.about-col-2  p {
+    font-size: 17px;;
 }
 .sub-title {
     font-size: 60px;
@@ -118,21 +125,40 @@ body {
 }
 
 /* tab-contents */
-.tab-contents ul li {
-    list-style: none;
-    margin: 10px 0;
-}
 
 .tab-contents ul li span {
-    color: #b54769;
+    color: #FD871F;
     font-size: 14px;
 }
 
+/* Tab Contents */
 .tab-contents {
     display: none;
+    background-color: #333; /* Dark grey background */
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition for the hover effect */
 }
+
 .tab-contents.active-tab {
     display: block;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab-contents ul li:hover {
+    background-color: #444; /* Slightly darker grey on hover */
+    color: #FD871F; /* Orange text on hover */
+}
+
+.tab-contents:hover {
+    box-shadow: 0 0 15px rgba(253, 135, 31, 0.8); /* Orange glow on hover */
 }
 
 /*  -------------services------------- */
@@ -174,6 +200,11 @@ body {
 .services-list div:hover {
     background: #FD871F;
     transform: translateY(-10px);
+}
+.services-list div p { 
+    font-weight: 400;
+    font-size: 17px;
+
 }
 
 /* ----------------portfolio--------------- */

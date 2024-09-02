@@ -27,9 +27,15 @@ If you’d like to contribute to this project, feel free to fork the repository 
 ## Contact
 If you have any questions or want to get in touch, feel free to reach out to me via:
 
-Email: sudip005.dutta@gmail.com
-LinkedIn: Sudipta Dutta
-GitHub: sudiptadutta99
+## 📝 License
+This project is not licensed. You are free to interpret and modify according to your use.
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check and reach out on the links below.
+
+## 👨‍💻 Author
+GitHub: [sudiptadutta99](https://github.com/sudiptadutta99)
+Twitter: [@sudiptadutta99](https://x.com/sudiptadutta99)
 
 Thanks for checking out my portfolio!
 
